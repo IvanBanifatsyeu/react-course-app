@@ -3,17 +3,17 @@ import CostItem from "./components/CostItem";
 function App() {
 	const costs = [
 		{
-			date: new Date(2021, 2, 12),
+			date: new Date(2021, 6, 12),
 			description: "Refrigerator",
 			amount: 999.99,
 		},
 		{
-			date: new Date(2021, 11, 22),
+			date: new Date(2021, 7, 22),
 			description: "MacBook",
 			amount: 1599.99,
 		},
 		{
-			date: new Date(2021, 2, 12),
+			date: new Date(2021, 5, 12),
 			description: "Jeans",
 			amount: 49.99,
 		},
