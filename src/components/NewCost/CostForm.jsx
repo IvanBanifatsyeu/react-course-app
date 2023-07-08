@@ -31,6 +31,10 @@ const CostForm = (props) => {
 		setInputDate("");
 	};
 
+	const handlerClickCancel = () => {
+		props.onHandlerCancel()
+	}
+
 	return (
 		<div>
 			<form onSubmit={submitHandler}>
@@ -65,6 +69,7 @@ const CostForm = (props) => {
 					</div>
 					<div className="new-cost__actions">
 						<button type="submit">Add cost</button>
+						<button type='button' onClick={handlerClickCancel}>Отмена</button>
 					</div>
 				</div>
 			</form>

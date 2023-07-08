@@ -5,3 +5,9 @@
     width: 70rem;
     max-width: 95%;
   }
+
+  .text {
+    text-align: center;
+  font-size: 2em;
+  color: white;
+  }

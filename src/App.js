@@ -21,6 +21,30 @@ const INITIAL_COSTS = [
 		description: "Jeans",
 		amount: 49.99,
 	},
+	{
+		id: "c4",
+		date: new Date(2023, 5, 12),
+		description: "Parrot",
+		amount: 300,
+	},
+	{
+		id: "c5",
+		date: new Date(2023, 2, 12),
+		description: "Bike",
+		amount: 400,
+	},
+	{
+		id: "c6",
+		date: new Date(2023, 3, 12),
+		description: "Cap",
+		amount: 10,
+	},
+	{
+		id: "c7",
+		date: new Date(2023, 3, 8),
+		description: "Phone",
+		amount: 220,
+	},
 ];
 
 const App = () => {
